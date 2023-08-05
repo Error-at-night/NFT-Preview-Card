@@ -1,0 +1,113 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    font-size: 1.128rem;
+}
+
+main{
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+main .overlay-container {
+    position: relative;
+}
+
+main .overlay-container img.bg-image{
+    border-radius: 10px;
+    width: 300px;
+}
+
+main .overlay-background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 300px;
+    opacity: 0;
+    transition: 0.3s ease;
+    border-radius: 10px;
+    background-color: hsl(178, 100%, 50%);
+}
+
+main .overlay-container:hover .overlay-background {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+main .overlay-container .overlay-background .view-icon{
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+main h3{
+    color: hsl(0, 0%, 100%);
+}
+
+main h3:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+main .text{
+    color: hsl(215, 51%, 70%);
+}
+
+main span{
+    color: hsl(0, 0%, 100%);
+}
+
+main div{
+    display: flex;
+    align-items: center;
+}
+
+main div img.clock{
+    margin-left: auto;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+main div img.ethereumm-img{
+    margin-right: 10px;
+}
+
+main div .eth-text{
+    color: hsl(178, 100%, 50%);
+}
+
+main hr{
+    background-color: hsl(215, 32%, 27%);
+    opacity: 0.1;
+
+}
+
+main div img.avatar{
+    width: 40px;
+    height: 40px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+main .text.creation{
+    word-spacing: 0.2em;
+}
+
+main .text.creation span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
