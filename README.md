@@ -52,7 +52,7 @@ I am supposed to have uploaded this projects (I have some which have not uploade
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Error-at-night)
+- Frontend Mentor - [@Error-at-night](https://www.frontendmentor.io/profile/Error-at-night)
 - Twitter - [@realogsuccessful](https://twitter.com/realogsucessful)
 - Linkedln - (https://www.linkedin.com/in/olayemi-success-554a86235/)
 - Instagram - (https://www.instagram.com/realogsuccessful/)
